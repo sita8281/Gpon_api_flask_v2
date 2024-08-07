@@ -1,0 +1,302 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.1.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /auth [POST]
+Traceback (most recent call last):
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 15, in decorated
+    if check_account(login, passw):
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\db_account.py", line 28, in check_account
+    for user in registered_users():
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\db_account.py", line 17, in registered_users
+    r = cursor.execute('''SELECT * FROM users ''').fetchall()
+sqlite3.OperationalError: no such table: users
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:25:02] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /auth [POST]
+Traceback (most recent call last):
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 15, in decorated
+    if check_account(login, passw):
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\db_account.py", line 28, in check_account
+    for user in registered_users():
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\db_account.py", line 17, in registered_users
+    r = cursor.execute('''SELECT * FROM users ''').fetchall()
+sqlite3.OperationalError: no such table: users
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:25:21] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /auth [POST]
+Traceback (most recent call last):
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 15, in decorated
+    if check_account(login, passw):
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\db_account.py", line 28, in check_account
+    for user in registered_users():
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\db_account.py", line 17, in registered_users
+    r = cursor.execute('''SELECT * FROM users ''').fetchall()
+sqlite3.OperationalError: no such table: users
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:25:24] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.1.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /auth [POST]
+Traceback (most recent call last):
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 15, in decorated
+    if check_account(login, passw):
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\db_account.py", line 27, in check_account
+    for user in registered_users():
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\db_account.py", line 16, in registered_users
+    r = cursor.execute('''SELECT * FROM users ''').fetchall()
+sqlite3.OperationalError: no such table: users
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:27:59] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.1.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:app:User: <admin> logged
+ERROR:app:Exception on /auth [POST]
+Traceback (most recent call last):
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 17, in decorated
+    return f(*args, **kwargs)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 25, in auth
+    return jsonify({"auth": "success", "version": firmware_version})
+NameError: name 'firmware_version' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:35:58] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:36:14] "[31m[1mPOST /onu_optical_info HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:36:14] "[31m[1mPOST /onu_info HTTP/1.1[0m" 401 -
+INFO:app:User: <root> logged
+ERROR:app:Exception on /auth [POST]
+Traceback (most recent call last):
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 17, in decorated
+    return f(*args, **kwargs)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 25, in auth
+    return jsonify({"auth": "success", "version": firmware_version})
+NameError: name 'firmware_version' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:36:34] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.1.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:38:03] "[31m[1mPOST /auth HTTP/1.1[0m" 400 -
+INFO:app:User: <admin> logged
+ERROR:app:Exception on /auth [POST]
+Traceback (most recent call last):
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Artem\Desktop\RESTful-gpon\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 17, in decorated
+    return f(*args, **kwargs)
+  File "C:\Users\Artem\Desktop\Gpon_api_flask_v2\app\routes.py", line 25, in auth
+    return jsonify({"auth": "success", "version": firmware_version})
+NameError: name 'firmware_version' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:38:25] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.1.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-963-198
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:38:40] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Artem\\Desktop\\Gpon_api_flask_v2\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.1.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 832-963-198
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:39:27] "POST /auth HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:39:44] "POST /auth HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:39:49] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:05] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:22] "POST /profile/get HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:22] "POST /profile/get HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:33] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:34] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:35] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:37] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:38] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:40] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:41] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:43] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:44] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:46] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:48] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:50] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:52] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:53] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:55] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:57] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:40:59] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:01] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:02] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:04] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:06] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:08] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:10] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:11] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:13] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:14] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:16] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:17] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:19] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:20] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:21] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:23] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:25] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:26] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:28] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:29] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:30] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:32] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:34] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:35] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:37] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:39] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:40] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:41] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:43] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:44] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:45] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:47] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:49] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:50] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:52] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:53] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:55] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:57] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:41:58] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:42:00] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:42:03] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:42:05] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:42:07] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:42:09] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <root> logged
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:42:11] "POST /ping HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Artem\\Desktop\\Gpon_api_flask_v2\\run.py', reloading
+INFO:werkzeug: * Restarting with stat
