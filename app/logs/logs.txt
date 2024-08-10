@@ -300,3 +300,175 @@ INFO:app:User: <root> logged
 INFO:werkzeug:127.0.0.1 - - [08/Aug/2024 00:42:11] "POST /ping HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\Artem\\Desktop\\Gpon_api_flask_v2\\run.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.1.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.1.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:45:37] "POST /auth HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:45:49] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:45:58] "POST /onu_optical_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:45:59] "POST /onu_info HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:46:32] "POST /profile/get HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:46:32] "POST /profile/get HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:46:36] "[31m[1mPOST /mac/all HTTP/1.1[0m" 400 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:46:40] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:49:17] "POST /auth HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:49:37] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:49:41] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:50:42] "POST /onu_optical_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:50:42] "POST /onu_info HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:51:21] "POST /mac/onu_id HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:51:42] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:51:49] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:51:57] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:13] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:14] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:16] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:17] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:19] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:20] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:21] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:23] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:42] "[31m[1mPOST /mac/all HTTP/1.1[0m" 400 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:44] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:45] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:47] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:48] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:50] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:51] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:53] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:54] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:56] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:52:58] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:53:00] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:53:01] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:53:03] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:53:05] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:53:07] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:53:09] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:54:34] "POST /mac/all HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:55:10] "POST /service_port_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:55:46] "POST /traffic/port HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:55:50] "POST /traffic/port HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:55:50] "POST /traffic/port HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:00] "POST /traffic/port HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:04] "POST /traffic/port HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:07] "POST /traffic/port HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:08] "POST /onu_list HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:18] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:19] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:20] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:22] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:23] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:24] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:25] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:27] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:28] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:29] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:30] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:31] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:33] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:34] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:35] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:36] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:38] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:39] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:40] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:41] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:42] "POST /traffic/vlan HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:56:55] "POST /gpon/profile/srv HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:57:05] "POST /gpon/profile/srv HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:57:17] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:57:18] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:57:19] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:57:21] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:57:22] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:57:23] "POST /ping HTTP/1.1" 200 -
+INFO:app:User: <admin> logged
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2024 14:57:24] "POST /ping HTTP/1.1" 200 -
