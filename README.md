@@ -4,8 +4,7 @@
 Этот API создан для следующей новой версии моей реализации Gpon-интерфейса<br>
 Первая версия интерфейса: [Gpon_interface_v1](https://github.com/sita8281/Gpon_interface_v1) (не использует клиент-серверный подход)
 
-Новый интерфейс (для него и создан данный API): [Gpon_interface_v2](Gpon_interface_v2
-)
+Новый интерфейс (для него и создан данный API): [Gpon_interface_v2](https://github.com/sita8281/Gpon_interface_v2)
 
 ### Схема взаимодействия (клиент-сервер)
 ![schem](demo/gpon_schem.png)
